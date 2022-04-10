@@ -1,5 +1,5 @@
 FROM python:3
-COPY . .
+COPY apple_.sgr
 
 # We need wget to set up the PPA and unzip to install the Chromedriver
 RUN apt-get install -y wget unzip
